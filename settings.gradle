@@ -1,0 +1,2 @@
+rootProject.name = "NewTimer"
+include ':app'

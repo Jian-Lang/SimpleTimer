@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.newtimer.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="切换主题"
+        android:icon="@drawable/style"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_style"
+        android:orderInCategory="100"
+        android:title="切换主题"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item android:id="@+id/style_bluesky" android:title="湛蓝天空(默认)">
+            </item>
+            <item android:id="@+id/style_night" android:title="静谧夜晚">
+            </item>
+            <item android:id="@+id/style_traffic" android:title="道路交通">
+            </item>
+            <item android:id="@+id/style_yun" android:title="奇幻云彩">
+            </item>
+
+        </menu>
+    </item>
+</menu>
